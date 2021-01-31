@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	const a, b = 500, 200
+	const a, b = 500, 300
 	var x,y = swap(a,b)
 	showmessage()
 	sum(200, 500)
