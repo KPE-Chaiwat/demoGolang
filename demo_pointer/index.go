@@ -14,5 +14,5 @@ func main() {
 }
 
 func changMessage(aPointer *string) {
-	*aPointer = "Noob Parin"
+	*aPointer = "Noob Parin1"
 }
