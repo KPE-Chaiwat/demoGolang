@@ -6,7 +6,7 @@ func main() {
 	var p1 person
 	p1.firstName = "john"
 	p1.lastName = "deo"
-	p1.age = 21
+	p1.age = 25
 	p1.eyeColor = "Blue"
 
 	fmt.Println(p1)
