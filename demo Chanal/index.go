@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"time"
+
+	
 )
 
 func main() {
@@ -16,5 +18,17 @@ func main() {
 	fmt.Println("run2")
 	fmt.Println(<-ch)
 
-	time.Sleep(5 * time.Second)
+	time.Sleep(2 * time.Second)
+
+	message := make(chan string )
+message <- "kak"
+fmt.Println(message)
+myChanaL(message)
+	
+	
+}
+
+func myChanaL(p chan string){
+	p<-"kuyparin"
+	fmt.Println(p)
 }
